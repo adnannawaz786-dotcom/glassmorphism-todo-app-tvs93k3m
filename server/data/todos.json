@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "title": "Welcome to your Glassmorphism Todo App",
+    "description": "This is your first todo item. You can edit, complete, or delete it anytime.",
+    "completed": false,
+    "priority": "medium",
+    "category": "personal",
+    "createdAt": "2024-01-15T10:00:00.000Z",
+    "updatedAt": "2024-01-15T10:00:00.000Z",
+    "dueDate": null,
+    "tags": ["welcome", "demo"]
+  },
+  {
+    "id": "2",
+    "title": "Try adding a new todo",
+    "description": "Click the add button to create your own todo items with custom categories and priorities.",
+    "completed": false,
+    "priority": "high",
+    "category": "work",
+    "createdAt": "2024-01-15T11:30:00.000Z",
+    "updatedAt": "2024-01-15T11:30:00.000Z",
+    "dueDate": "2024-01-20T23:59:59.000Z",
+    "tags": ["tutorial", "important"]
+  },
+  {
+    "id": "3",
+    "title": "Explore the filter options",
+    "description": "Use the filter buttons to view todos by status, priority, or category.",
+    "completed": true,
+    "priority": "low",
+    "category": "personal",
+    "createdAt": "2024-01-14T09:15:00.000Z",
+    "updatedAt": "2024-01-15T14:20:00.000Z",
+    "dueDate": null,
+    "tags": ["tutorial", "completed"]
+  },
+  {
+    "id": "4",
+    "title": "Test the search functionality",
+    "description": "Use the search bar to quickly find specific todos by title, description, or tags.",
+    "completed": false,
+    "priority": "medium",
+    "category": "work",
+    "createdAt": "2024-01-15T16:45:00.000Z",
+    "updatedAt": "2024-01-15T16:45:00.000Z",
+    "dueDate": "2024-01-18T12:00:00.000Z",
+    "tags": ["search", "functionality"]
+  },
+  {
+    "id": "5",
+    "title": "Customize your workspace",
+    "description": "Organize your todos with different categories and priority levels to stay productive.",
+    "completed": false,
+    "priority": "low",
+    "category": "personal",
+    "createdAt": "2024-01-15T18:30:00.000Z",
+    "updatedAt": "2024-01-15T18:30:00.000Z",
+    "dueDate": null,
+    "tags": ["organization", "productivity"]
+  }
+]
