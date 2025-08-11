@@ -7,7 +7,6 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      // Enable relative imports for better organization
       'src': path.resolve(__dirname, './src'),
     },
   },
@@ -16,13 +15,17 @@ export default defineConfig({
     open: true,
     host: true,
     proxy: {
-      // Proxy API calls to avoid CORS issues during development
       '/api': {
         target: 'http://localhost:3001',
         changeOrigin: true,
         secure: false,
       },
     },
+  },
+  preview: {
+    port: 4173,
+    strictPort: true,
+    allowedHosts: ['glassmorphism-todo-app-tvs93k3m.onrender.com'],
   },
   build: {
     outDir: 'dist',
@@ -53,7 +56,6 @@ export default defineConfig({
     postcss: './postcss.config.js',
   },
   define: {
-    // Enable production optimizations
     __DEV__: JSON.stringify(process.env.NODE_ENV === 'development'),
   },
 })
